@@ -12,6 +12,7 @@ find_package(rosidl_default_generators REQUIRED)
 
 # build messages
 rosidl_generate_interfaces(${PROJECT_NAME}
+  "msg/BoundingBox.msg"
   "msg/Detection.msg"
   "msg/Detections.msg"
   DEPENDENCIES std_msgs # Add packages that above messages depend on, in this case geometry_msgs for Sphere.msg
