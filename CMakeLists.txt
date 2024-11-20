@@ -12,6 +12,7 @@ find_package(rosidl_default_generators REQUIRED)
 
 # build messages
 rosidl_generate_interfaces(${PROJECT_NAME}
+  "msg/Point.msg"
   "msg/BoundingBox.msg"
   "msg/Detection.msg"
   "msg/Detections.msg"
