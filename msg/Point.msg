@@ -1,4 +1,4 @@
 # very simple pixel point message
 
-int16 x
-int16 y
+float64 x
+float64 y
